@@ -1,0 +1,6 @@
+nome=input('Qual é o seu nome? ')
+print('{} É UM NOME LINDO'.format(nome.upper()))
+print('{} com toda certeza é bem bonito'.format(nome.lower()))
+lista=nome.split()
+print('{} tem ao todo'.format(nome),'{}'.format(len(''.join(lista))))
+print('enquanto isso {} tem apenas {} letras'.format(lista[0], len(lista[0])))
